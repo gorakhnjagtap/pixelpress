@@ -262,4 +262,4 @@ export function mountPixelPress(root, opts) {
       root.textContent = '';
     }
   };
-                          }
+}

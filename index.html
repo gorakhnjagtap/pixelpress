@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PixelPress - private image compressor</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  body{margin:0;background:#f6f6f4;color:#1c1c1a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.45}
+  .wrap{max-width:720px;margin:0 auto;padding:24px 16px 64px}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+<script type="module">
+  import { mountPixelPress } from './app.js';
+  mountPixelPress(document.getElementById('app'), { chrome: true });
+</script>
+</body>
+</html>
